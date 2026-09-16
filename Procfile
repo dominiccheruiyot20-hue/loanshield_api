@@ -1,1 +1,1 @@
-web: gunicorn loanshield_api.wsgi
+web: gunicorn loanshield_api.wsgi:application
