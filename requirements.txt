@@ -1,10 +1,11 @@
 Django>=4.2
 djangorestframework
+djangorestframework-simplejwt
 django-cors-headers
-gunicorn
+cloudinary
+django-cloudinary-storage
 whitenoise
+gunicorn
+psutil
+Pillow
 dj-database-url
-python-dotenv
-psycopg2-binary
-dj-database-url==2.1.0
-psycopg2-binary==2.9.9
