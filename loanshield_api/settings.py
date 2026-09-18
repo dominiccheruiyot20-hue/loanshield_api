@@ -21,6 +21,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'cloudinary',
     'cloudinary_storage',
+    'fraud_detector',
 ]
 
 MIDDLEWARE = [
