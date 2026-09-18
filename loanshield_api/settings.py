@@ -17,6 +17,8 @@ DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 ALLOWED_HOSTS = ['*']
 
 IINSTALLED_APPS = [
+...
+]
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -30,9 +32,9 @@ IINSTALLED_APPS = [
     'cloudinary_storage',
     'api',
 
-]
+] 
 
-        MIDDLEWARE = [
+MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
