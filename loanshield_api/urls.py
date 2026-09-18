@@ -3,5 +3,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('loanshield_api.fraud_detector.urls')),
+    path('api/', include('fraud_detector.urls')),
 ]
