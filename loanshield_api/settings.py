@@ -21,7 +21,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'cloudinary',
     'cloudinary_storage',
-    'fraud_detector',
+    'loanshield_api.fraud_detector',
 ]
 
 MIDDLEWARE = [
