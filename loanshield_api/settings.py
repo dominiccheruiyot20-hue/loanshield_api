@@ -84,6 +84,14 @@ CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
 
 REST_FRAMEWORK = {
+ 'DEFAULT_THROTTLE_CLASSES': [
+   'rest_framework.throttling.AnonRateThrottle',
+ ],
+ 'DEFAULT_THROTTLE_RATES': {
+   'anon': '10/minute',
+ }
+}
+{
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
